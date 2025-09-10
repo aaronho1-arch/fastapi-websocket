@@ -1,0 +1,9 @@
+Backend server structure
+
+1. Build a websocket to enable streaming of data, UI input > to transcription, transcribed text > UI
+2. Chunk the streaming data and queue input
+3. Use whisper to transcribe the chunks and and send the results back to the UI
+4. use or create a framework that allows us to use agents to analyze the transcribed results 
+
+
+see this article for ref: https://medium.com/@atulkumar_68871/building-a-streaming-speech-to-text-application-with-fastapi-and-amazon-transcribe-6203d857375a
